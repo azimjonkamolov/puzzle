@@ -208,11 +208,11 @@ img#outline{
     height: 200% !important; */
     z-index: 4;
 }
-.row.middle>.col.slice_1_2{
-    /* background-color: hotpink; */
-}
+/* .row.middle>.col.slice_1_2{
+    background-color: hotpink;
+} */
 .row.middle>.col.slice_1_2>img{
-    top: -22% !important;
+    top: -12% !important;
     left: -24% !important;
     width: 147% !important;
     /* background-color: hotpink; */
@@ -238,7 +238,6 @@ img#outline{
     z-index: 4;
 }
 .row.last>.col.slice_2_2>img{
-    top: 0%;
     top: -34.8%;
     width: 101%;
     z-index: 4;
