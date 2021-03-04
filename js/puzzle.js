@@ -34,19 +34,7 @@ function checkFinish(){
     if(puzzle_chunks == 0){
         notification.innerText = '완성하였습니다! 다음 단계로 넘어가세요';
         fadeIn(congrat_puzzle_button);  
-        document.getElementById("slice_0_0").style.opacity = 0;
-        document.getElementById("slice_0_1").style.opacity = 0;
-        document.getElementById("slice_0_2").style.opacity = 0;
-        document.getElementById("slice_0_3").style.opacity = 0;
-        document.getElementById("slice_1_0").style.opacity = 0;
-        document.getElementById("slice_1_1").style.opacity = 0;
-        document.getElementById("slice_1_2").style.opacity = 0;
-        document.getElementById("slice_1_3").style.opacity = 0;
-        document.getElementById("slice_2_0").style.opacity = 0;
-        document.getElementById("slice_2_1").style.opacity = 0;
-        document.getElementById("slice_2_2").style.opacity = 0;
-        document.getElementById("slice_2_3").style.opacity = 0;
-        document.getElementById("outline").src = "../images/puz.jpg";
+        document.getElementById("outline").style.opacity = 0;
     }
     else{
         notification.innerText = '';
